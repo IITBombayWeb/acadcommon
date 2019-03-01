@@ -10,7 +10,7 @@ field_plugin_method: null
 cck_plugin_method: null
 migration_tags:
   - CSV
-migration_group: chem
+migration_group: acadmixmigration
 label: 'News items content migration'
 source:
   plugin: csv
