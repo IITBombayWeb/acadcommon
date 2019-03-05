@@ -6,18 +6,15 @@ dependencies:
       - acadmix_event
   module:
     - node
-    - options
 id: node.field_event_title_of_seminar_con
 field_name: field_event_title_of_seminar_con
 entity_type: node
-type: list_string
+type: string
 settings:
-  allowed_values:
-    -
-      value: 'Provide the detailed title of the Seminar/Conference here.'
-      label: 'Provide the detailed title of the Seminar/Conference here.'
-  allowed_values_function: ''
-module: options
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
 locked: false
 cardinality: 1
 translatable: true
