@@ -5,6 +5,9 @@ dependencies:
     - field.storage.node.body
     - field.storage.node.field_news_date
     - node.type.news_item
+  enforced:
+    module:
+      - acadmix_news
   module:
     - datetime
     - node

@@ -4,4 +4,16 @@ description: 'Acadmix Faculty Content Type'
 core: 8.x
 package: 'Acadmix Content Type'
 dependencies:
-  - paragraphs
+  - paragraphs:paragraphs
+  - menu_ui:menu_ui
+  - node:node
+  - taxonomy:taxonomy
+  - text:text
+  - name:name
+  - entity_reference_revisions:entity_reference_revisions
+  - file:file
+  - image:image
+  - options:options
+  - link:link
+  - user:user
+  - path:path

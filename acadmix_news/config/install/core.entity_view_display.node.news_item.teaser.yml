@@ -5,6 +5,9 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.news_item.body
     - node.type.news_item
+  enforced:
+    module:
+      - acadmix_news
   module:
     - text
     - user

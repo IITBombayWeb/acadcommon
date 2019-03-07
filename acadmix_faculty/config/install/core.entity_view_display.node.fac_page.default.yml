@@ -24,6 +24,9 @@ dependencies:
     - field.field.node.fac_page.field_room_no
     - field.field.node.fac_page.field_scopus_id
     - node.type.fac_page
+  enforced:
+    module:
+      - acadmix_faculty
   module:
     - entity_reference_revisions
     - file

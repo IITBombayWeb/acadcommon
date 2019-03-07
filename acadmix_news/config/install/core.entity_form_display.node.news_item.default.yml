@@ -8,6 +8,9 @@ dependencies:
     - field.field.node.news_item.field_news_type
     - image.style.thumbnail
     - node.type.news_item
+  enforced:
+    module:
+      - acadmix_news
   module:
     - datetime
     - image

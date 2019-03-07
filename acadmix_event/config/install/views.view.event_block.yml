@@ -6,6 +6,9 @@ dependencies:
     - field.storage.node.field_event_venue
     - field.storage.node.field_start_date_and_time
     - node.type.event
+  enforced:
+    module:
+      - acadmix_event
   module:
     - datetime
     - node

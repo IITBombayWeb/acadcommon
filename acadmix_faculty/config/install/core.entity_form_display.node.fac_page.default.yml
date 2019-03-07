@@ -25,6 +25,9 @@ dependencies:
     - field.field.node.fac_page.field_scopus_id
     - image.style.thumbnail
     - node.type.fac_page
+  enforced:
+    module:
+      - acadmix_faculty
   module:
     - file
     - image

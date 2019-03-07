@@ -4,5 +4,5 @@ description: 'Import/Migrate data from CSV into Acadmix Event Content'
 core: 8.x
 package: 'Acadmix Migration'
 dependencies:
-  - migrate_tools
-  - acadmix_event
+  - migrate_tools:migrate_tools
+  - acadmix_event:acadmix_event

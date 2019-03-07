@@ -4,4 +4,12 @@ description: 'Acadmix Event Content Type'
 core: 8.x
 package: 'Acadmix Content Type'
 dependencies:
-  - views_bootstrap
+  - views_bootstrap:views_bootstrap
+  - datetime:datetime
+  - node:node
+  - text:text
+  - user:user
+  - menu_ui:menu_ui
+  - taxonomy:taxonomy
+  - options:options
+  - path:path

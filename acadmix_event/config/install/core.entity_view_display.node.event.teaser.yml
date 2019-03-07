@@ -9,6 +9,9 @@ dependencies:
     - field.field.node.event.field_event_types
     - field.field.node.event.field_event_venue
     - node.type.event
+  enforced:
+    module:
+      - acadmix_event
   module:
     - text
     - user

@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.body
     - node.type.event
+  enforced:
+    module:
+      - acadmix_event
   module:
     - datetime
     - node
