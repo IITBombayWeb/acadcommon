@@ -3,14 +3,14 @@ type: module
 description: 'Acadmix News Content Type'
 core: 8.x
 package: 'Acadmix Content Type'
-dependencies:
+dependencies:  
+  - drupal:datetime
+  - drupal:node
+  - drupal:text
+  - drupal:user
+  - drupal:menu_ui
+  - drupal:taxonomy
+  - drupal:file
+  - drupal:image
+  - drupal:path
   - views_bootstrap:views_bootstrap
-  - datetime:datetime
-  - node:node
-  - text:text
-  - user:user
-  - menu_ui:menu_ui
-  - taxonomy:taxonomy
-  - file:file
-  - image:image
-  - path:path
