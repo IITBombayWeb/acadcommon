@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - acadmix_faculty
+id: r_d_projects
+label: 'R&D Projects'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

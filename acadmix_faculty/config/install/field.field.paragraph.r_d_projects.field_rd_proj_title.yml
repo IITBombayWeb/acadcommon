@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_rd_proj_title
+    - paragraphs.paragraphs_type.r_d_projects
+  enforced:
+    module:
+      - acadmix_faculty
+id: paragraph.r_d_projects.field_rd_proj_title
+field_name: field_rd_proj_title
+entity_type: paragraph
+bundle: r_d_projects
+label: 'R&D Project Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
