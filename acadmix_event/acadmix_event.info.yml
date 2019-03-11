@@ -13,3 +13,4 @@ dependencies:
   - drupal:taxonomy
   - drupal:options
   - drupal:path
+  - ds:ds

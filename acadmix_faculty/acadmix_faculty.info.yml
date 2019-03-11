@@ -16,3 +16,4 @@ dependencies:
   - drupal:user
   - drupal:path
   - paragraphs:paragraphs
+  - ds:ds
