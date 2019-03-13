@@ -1,0 +1,17 @@
+name: 'Acadmix Slider Content Type'
+type: module
+description: 'Acadmix Slider Content Type'
+core: 8.x
+package: 'Acadmix Content Type'
+dependencies:
+  - drupal:responsive_image
+  - drupal:image
+  - drupal:path
+  - drupal:text
+  - drupal:user
+  - drupal:node
+  - drupal:file
+  - slick_views:slick_views
+  - slick:slick
+  - ds:ds
+  - spamspan:spamspan

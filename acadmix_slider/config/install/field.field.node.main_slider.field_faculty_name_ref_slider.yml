@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_faculty_name_ref_slider
+    - node.type.fac_page
+    - node.type.main_slider
+id: node.main_slider.field_faculty_name_ref_slider
+field_name: field_faculty_name_ref_slider
+entity_type: node
+bundle: main_slider
+label: 'Faculty Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      fac_page: fac_page
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
