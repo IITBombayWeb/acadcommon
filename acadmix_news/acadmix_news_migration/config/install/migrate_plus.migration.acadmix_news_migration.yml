@@ -58,6 +58,5 @@ destination:
   plugin: 'entity:node'
   bundle: news_item
 migration_dependencies:
-  required:
-      - news_types
+  required: {  }
   optional: {  }
