@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - acadmix_slider
+name: slider_inner_image
+label: 'slider inner image'
+effects:
+  3d1fbaa8-a63c-4933-9b91-d6c469d310b1:
+    uuid: 3d1fbaa8-a63c-4933-9b91-d6c469d310b1
+    id: image_scale
+    weight: 1
+    data:
+      width: 650
+      height: 650
+      upscale: false
