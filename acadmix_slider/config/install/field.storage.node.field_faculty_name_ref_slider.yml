@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - acadmix_slider
 id: node.field_faculty_name_ref_slider
 field_name: field_faculty_name_ref_slider
 entity_type: node
