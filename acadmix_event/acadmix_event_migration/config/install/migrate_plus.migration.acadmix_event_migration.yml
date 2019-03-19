@@ -67,6 +67,5 @@ destination:
   plugin: 'entity:node'
   bundle: event
 migration_dependencies:
-  required:
-      - event_types
+  required: {  }
   optional: {  }

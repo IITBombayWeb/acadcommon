@@ -90,6 +90,5 @@ destination:
   bundle: fac_page
 migration_dependencies:
   required:
-    - employement_categ
-    - research_area
+    - research_areachild
   optional: {  }
