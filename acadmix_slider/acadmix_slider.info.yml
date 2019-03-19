@@ -4,7 +4,6 @@ description: 'Acadmix Slider Content Type'
 core: 8.x
 package: 'Acadmix Content Type'
 dependencies:
-  - drupal:responsive_image
   - drupal:image
   - drupal:path
   - drupal:text
