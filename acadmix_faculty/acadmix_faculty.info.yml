@@ -17,3 +17,4 @@ dependencies:
   - drupal:path
   - paragraphs:paragraphs
   - ds:ds
+  - spamspan:spamspan
