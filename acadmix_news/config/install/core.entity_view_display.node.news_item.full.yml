@@ -95,7 +95,7 @@ content:
     weight: 3
     label: hidden
     settings:
-      image_style: thumbnail_400_300_
+      image_style:  acad_news_thumbnail_400_300_
       image_link: ''
     third_party_settings:
       ds:

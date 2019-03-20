@@ -406,7 +406,7 @@ content:
     region: ds_content
     label: hidden
     settings:
-      responsive_image_style: narrow
+      responsive_image_style: acad_fac_narrow
       image_link: ''
     third_party_settings:
       ds:

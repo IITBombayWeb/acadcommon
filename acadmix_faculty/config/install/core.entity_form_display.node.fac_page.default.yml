@@ -138,7 +138,7 @@ content:
     weight: 149
     settings:
       progress_indicator: throbber
-      preview_image_style: thumbnail
+      preview_image_style: acad_fac_thumbnail_100_100_
     third_party_settings: {  }
     type: image_image
     region: content

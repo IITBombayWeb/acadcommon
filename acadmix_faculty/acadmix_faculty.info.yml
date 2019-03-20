@@ -15,6 +15,7 @@ dependencies:
   - drupal:link
   - drupal:user
   - drupal:path
+  - drupal:responsive_image
   - paragraphs:paragraphs
   - ds:ds
   - spamspan:spamspan
