@@ -6,7 +6,7 @@ dependencies:
     - field.field.node.main_slider.field_faculty_name_ref_slider
     - field.field.node.main_slider.field_slider_image
     - field.field.node.main_slider.field_slider_subtitle
-    - image.style.thumbnail
+    - image.style.slider_inner_thumbnail_100_100_
     - node.type.main_slider
   module:
     - image
