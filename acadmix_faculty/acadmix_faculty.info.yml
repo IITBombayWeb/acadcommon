@@ -16,6 +16,7 @@ dependencies:
   - drupal:user
   - drupal:path
   - drupal:responsive_image
-  - paragraphs:paragraphs
   - ds:ds
+  - paragraphs:paragraphs  
   - spamspan:spamspan
+  - migrate_file:migrate_file
