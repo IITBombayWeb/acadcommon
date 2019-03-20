@@ -14,3 +14,4 @@ dependencies:
   - ds:ds
   - spamspan:spamspan
   - slick_views:slick_views
+  - acadmix_faculty:acadmix_faculty
