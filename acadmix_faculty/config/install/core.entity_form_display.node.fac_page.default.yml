@@ -23,7 +23,7 @@ dependencies:
     - field.field.node.fac_page.field_research_area
     - field.field.node.fac_page.field_room_no
     - field.field.node.fac_page.field_scopus_id
-    - image.style.thumbnail
+    - image.style.acad_fac_thumbnail_100_100_
     - node.type.fac_page
   enforced:
     module:
