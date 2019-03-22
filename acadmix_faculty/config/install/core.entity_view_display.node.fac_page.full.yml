@@ -25,7 +25,7 @@ dependencies:
     - field.field.node.fac_page.field_room_no
     - field.field.node.fac_page.field_scopus_id
     - node.type.fac_page
-    - responsive_image.styles.narrow
+    - responsive_image.styles.acad_fac_narrow
   enforced:
     module:
       - acadmix_faculty
@@ -406,7 +406,7 @@ content:
     region: ds_content
     label: hidden
     settings:
-      responsive_image_style: narrow
+      responsive_image_style: acad_fac_narrow
       image_link: ''
     third_party_settings:
       ds:

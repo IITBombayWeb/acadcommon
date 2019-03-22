@@ -6,7 +6,7 @@ dependencies:
     - field.field.node.news_item.field_news_date
     - field.field.node.news_item.field_news_images
     - field.field.node.news_item.field_news_type
-    - image.style.thumbnail
+    - image.style.acad_news_thumbnail_400_300_
     - node.type.news_item
   enforced:
     module:
@@ -46,7 +46,7 @@ content:
     weight: 123
     settings:
       progress_indicator: throbber
-      preview_image_style: thumbnail
+      preview_image_style: acad_news_thumbnail_400_300_
     third_party_settings: {  }
     type: image_image
     region: content

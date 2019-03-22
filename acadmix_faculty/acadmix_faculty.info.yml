@@ -15,7 +15,10 @@ dependencies:
   - drupal:link
   - drupal:user
   - drupal:path
-  - paragraphs:paragraphs
+  - drupal:responsive_image
   - ds:ds
   - spamspan:spamspan
   - linked_field:linked_field
+  - paragraphs:paragraphs  
+  - spamspan:spamspan
+  - migrate_file:migrate_file

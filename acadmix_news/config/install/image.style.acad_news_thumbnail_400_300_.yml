@@ -4,11 +4,11 @@ dependencies:
   enforced:
     module:
       - acadmix_news
-name: thumbnail_400_300_
-label: 'Thumbnail (400×300)'
+name: acad_news_thumbnail_400_300_
+label: 'Acad News Thumbnail (400×300)'
 effects:
-  e5200240-f6fe-490e-b6c7-76870aef65d5:
-    uuid: e5200240-f6fe-490e-b6c7-76870aef65d5
+  fd20fd3f-9b6c-47ef-bf3f-da739870c51c:
+    uuid: fd20fd3f-9b6c-47ef-bf3f-da739870c51c
     id: image_scale_and_crop
     weight: 1
     data:
