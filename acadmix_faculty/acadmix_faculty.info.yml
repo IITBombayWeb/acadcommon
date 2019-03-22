@@ -18,3 +18,4 @@ dependencies:
   - paragraphs:paragraphs
   - ds:ds
   - spamspan:spamspan
+  - linked_field:linked_field
