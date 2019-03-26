@@ -1,8 +1,8 @@
-name: 'Acadmix News Migration'
+name: 'Acadmix news migration'
 type: module
-description: 'Import/Migrate data from CSV into Acadmix News Content'
+description: 'Import/migrate data from CSV into acadmix news content'
 core: 8.x
-package: 'Acadmix Migration'
+package: 'Acadmix migration'
 dependencies:
   - migrate_tools:migrate_tools
   - migrate_file:migrate_file

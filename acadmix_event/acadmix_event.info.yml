@@ -1,8 +1,8 @@
-name: 'Acadmix Event Content Type'
+name: 'Acadmix event content type'
 type: module
-description: 'Acadmix Event Content Type'
+description: 'Acadmix event content type'
 core: 8.x
-package: 'Acadmix Content Type'
+package: 'Acadmix content type'
 dependencies:
   - views_bootstrap:views_bootstrap
   - drupal:datetime
