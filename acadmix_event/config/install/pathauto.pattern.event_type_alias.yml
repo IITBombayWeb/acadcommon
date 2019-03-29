@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - acadmix_event
 id: event_type_alias
 label: 'Event type alias'
 type: 'canonical_entities:node'

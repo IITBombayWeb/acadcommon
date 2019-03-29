@@ -4,6 +4,9 @@ dependencies:
   module:
     - ctools
     - taxonomy
+  enforced:
+    module:
+      - acadmix_faculty
 id: research_area_alias
 label: 'Research Area alias'
 type: 'canonical_entities:taxonomy_term'

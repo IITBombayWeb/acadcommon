@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - acadmix_faculty
 id: faculty
 label: Faculty
 type: 'canonical_entities:node'

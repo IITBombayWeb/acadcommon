@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - acadmix_news
 id: news_type_alias
 label: 'News type alias'
 type: 'canonical_entities:node'
