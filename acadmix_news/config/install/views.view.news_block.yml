@@ -360,7 +360,18 @@ display:
           content: '<h3><i class="fas fa-newspaper"></i>&nbsp;[view:title]</h3>'
           plugin_id: text_custom
       footer: {  }
-      empty: {  }
+      empty:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content: "<h3><i class=\"fas fa-newspaper\"></i>&nbsp;[view:title]</h3>\r\n<h4>No News item found</h4>"
+          plugin_id: text_custom
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
