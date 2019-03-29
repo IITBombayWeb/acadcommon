@@ -42,6 +42,8 @@ third_party_settings:
         - field_news_type
         - field_news_images
         - body
+_core:
+  default_config_hash: BLXvL0jiS1l7oPDzfNejef7mGSJgpAhqi-4PA6XjDHw
 id: node.news_item.full
 targetEntityType: node
 bundle: news_item
@@ -95,7 +97,7 @@ content:
     weight: 3
     label: hidden
     settings:
-      image_style:  acad_news_thumbnail_400_300_
+      image_style: acad_news_thumbnail_400_300_
       image_link: ''
     third_party_settings:
       ds:
@@ -150,18 +152,18 @@ content:
             ow-el: div
             ow-cl: 'row mb-10'
             ow-at: ''
-            fis-el: ''
-            fis-cl: ''
+            fis: true
+            fis-el: li
+            fis-cl: 'col-sm-10 list-unstyled'
             fis-at: ''
             fi: true
-            fi-el: div
-            fi-cl: col-sm-10
+            fi-el: ul
+            fi-cl: ''
             fi-at: ''
             suffix: ''
             lb-col: false
             ow-def-at: false
             ow-def-cl: false
-            fis: false
             fis-def-at: false
             fi-def-at: false
     type: entity_reference_label
