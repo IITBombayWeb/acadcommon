@@ -16,3 +16,4 @@ dependencies:
   - ds:ds
   - migrate_file:migrate_file
   - views_bootstrap:views_bootstrap
+  - pathauto:pathauto

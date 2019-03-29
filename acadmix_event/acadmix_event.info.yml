@@ -14,3 +14,4 @@ dependencies:
   - drupal:options
   - drupal:path
   - ds:ds
+  - pathauto:pathauto

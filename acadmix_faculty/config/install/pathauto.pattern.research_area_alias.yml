@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: research_area_alias
+label: 'Research Area alias'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'research-area/[term:name]'
+selection_criteria:
+  aa9ede94-50d6-4d99-936f-9bd7c335e747:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      research_area: research_area
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: aa9ede94-50d6-4d99-936f-9bd7c335e747
+selection_logic: and
+weight: -5
+relationships: {  }
