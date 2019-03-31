@@ -153,11 +153,11 @@ content:
             ow-cl: 'row mb-10'
             ow-at: ''
             fis: true
-            fis-el: li
+            fis-el: ul
             fis-cl: 'col-sm-10 list-unstyled'
             fis-at: ''
             fi: true
-            fi-el: ul
+            fi-el: li
             fi-cl: ''
             fi-at: ''
             suffix: ''
