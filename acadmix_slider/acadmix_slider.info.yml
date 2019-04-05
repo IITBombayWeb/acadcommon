@@ -1,8 +1,8 @@
-name: 'Acadmix Slider Content Type'
+name: 'Acadmix slider content type'
 type: module
-description: 'Acadmix Slider Content Type'
+description: 'Acadmix slider content type'
 core: 8.x
-package: 'Acadmix Content Type'
+package: 'Acadmix content type'
 dependencies:
   - drupal:image
   - drupal:path

@@ -1,8 +1,8 @@
-name: 'Acadmix Faculty Migration'
+name: 'Acadmix faculty migration'
 type: module
-description: 'Import/Migrate data from CSV into Acadmix Faculty Content'
+description: 'Import/migrate data from CSV into acadmix faculty content'
 core: 8.x
-package: 'Acadmix Migration'
+package: 'Acadmix migration'
 dependencies:
   - migrate_tools:migrate_tools
   - migrate_file:migrate_file

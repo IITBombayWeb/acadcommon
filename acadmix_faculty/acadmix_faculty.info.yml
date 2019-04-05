@@ -1,8 +1,8 @@
-name: 'Acadmix Faculty Content Type'
+name: 'Acadmix faculty content type'
 type: module
-description: 'Acadmix Faculty Content Type'
+description: 'Acadmix faculty content type'
 core: 8.x
-package: 'Acadmix Content Type'
+package: 'Acadmix content type'
 dependencies: 
   - drupal:menu_ui
   - drupal:node
@@ -22,3 +22,5 @@ dependencies:
   - paragraphs:paragraphs  
   - spamspan:spamspan
   - migrate_file:migrate_file
+  - pathauto:pathauto
+  - twig_field_value:twig_field_value

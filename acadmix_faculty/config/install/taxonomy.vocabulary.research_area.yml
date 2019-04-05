@@ -6,6 +6,6 @@ dependencies:
      - acadmix_faculty
 name: 'Research Area'
 vid: research_area
-description: 'Just For Testing'
+description: 'Research Area terms'
 hierarchy: 0
 weight: 0

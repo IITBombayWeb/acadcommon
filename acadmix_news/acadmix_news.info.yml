@@ -1,8 +1,8 @@
-name: 'Acadmix News Content Type'
+name: 'Acadmix news content type'
 type: module
-description: 'Acadmix News Content Type'
+description: 'Acadmix news content type'
 core: 8.x
-package: 'Acadmix Content Type'
+package: 'Acadmix content type'
 dependencies:  
   - drupal:datetime
   - drupal:node
@@ -16,3 +16,4 @@ dependencies:
   - ds:ds
   - migrate_file:migrate_file
   - views_bootstrap:views_bootstrap
+  - pathauto:pathauto
