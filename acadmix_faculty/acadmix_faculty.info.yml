@@ -26,3 +26,4 @@ dependencies:
   - twig_field_value:twig_field_value
   - better_exposed_filters:better_exposed_filters
   - datatables:datatables
+  - field_group:field_group
