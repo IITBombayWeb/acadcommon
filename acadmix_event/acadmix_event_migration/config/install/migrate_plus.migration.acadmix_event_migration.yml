@@ -14,7 +14,7 @@ migration_group: acadmixmigration
 label: 'Event page content migration'
 source:
   plugin: csv
-  path: /var/www/migrationdata/csv/event-item-sample.csv
+  path: /var/www/migrationdata/csv/event-sample.csv
   delimiter: ','
   enclosure: '"'
   header_row_count: 1

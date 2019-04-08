@@ -14,7 +14,7 @@ migration_group: acadmixmigration
 label: 'Research Area migration from CSV'
 source:
   plugin: csv
-  path: /var/www/migrationdata/csv/research_areaparent.csv
+  path: /var/www/migrationdata/csv/researcharea-parent-sample.csv
   header_row_count: 1
   keys:
     - id
