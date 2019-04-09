@@ -37,7 +37,7 @@ process:
   field_event_title_of_seminar_con/format:
     plugin: default_value
     default_value: basic_html
-  field_event_venue/value: venu
+  field_event_venue/value: venue
   field_event_venue/format:
     plugin: default_value
     default_value: basic_html
