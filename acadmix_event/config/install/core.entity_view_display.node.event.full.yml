@@ -17,7 +17,6 @@ dependencies:
   module:
     - datetime
     - ds
-    - file
     - text
     - user
 third_party_settings:
@@ -53,7 +52,7 @@ bundle: event
 mode: full
 content:
   body:
-    label: above
+    label: hidden
     type: text_default
     weight: 6
     settings: {  }
@@ -64,9 +63,8 @@ content:
           settings:
             lb: Details
             prefix: ''
-            lbw: true
-            lbw-el: div
-            lbw-cl: 'col-sm-2 fw-bold'
+            lbw-el: ''
+            lbw-cl: ''
             lbw-at: ''
             ow: true
             ow-el: div
@@ -77,9 +75,10 @@ content:
             fis-at: ''
             fi: true
             fi-el: div
-            fi-cl: col-sm-10
+            fi-cl: col-sm-12
             fi-at: ''
             suffix: ''
+            lbw: false
             lb-col: false
             ow-def-at: false
             ow-def-cl: false
@@ -197,11 +196,12 @@ content:
     type: text_default
     region: ds_content
   field_event_title_of_seminar_con:
-    type: text_default
+    type: string
     weight: 5
     region: ds_content
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings:
       ds:
         ft:
@@ -222,7 +222,7 @@ content:
             fis-at: ''
             fi: true
             fi-el: div
-            fi-cl: col-sm-10
+            fi-cl: 'col-sm-10 fw-bold'
             fi-at: ''
             suffix: ''
             lb-col: false
