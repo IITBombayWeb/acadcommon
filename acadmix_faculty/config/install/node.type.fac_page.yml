@@ -8,8 +8,9 @@ dependencies:
     - menu_ui
 third_party_settings:
   menu_ui:
-    available_menus: {  }
-    parent: ''
+    available_menus:
+      - main
+    parent: 'main:'
 name: 'Faculty Page'
 type: fac_page
 description: 'Content template for opening Faculty Page'

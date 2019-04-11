@@ -14,7 +14,7 @@ migration_group: acadmixmigration
 label: 'Faculty Page content migration'
 source:
   plugin: csv
-  path: /var/www/migrationdata/csv/facdata.csv
+  path: /var/www/migrationdata/csv/facpage-sample.csv
   delimiter: ','
   enclosure: '"'
   header_row_count: 1
@@ -28,6 +28,10 @@ process:
     plugin: default_value
     default_value: fac_page
   source_path:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: photo
     -
       plugin: concat
       delimiter: /
@@ -85,6 +89,9 @@ process:
       plugin: entity_lookup
       entity_type: taxonomy_term
       bundle: research_area
+  field_orcid: orc_id
+  field_google_scholar_id: scholar_id
+  field_scopus_id: scopus_id
 destination:
   plugin: 'entity:node'
   bundle: fac_page
