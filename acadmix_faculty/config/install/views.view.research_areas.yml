@@ -4,15 +4,16 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_research_areas_image
     - image.style.acad_fac_thumbnail_400_300_
+    - system.menu.main
     - taxonomy.vocabulary.research_area
+  enforced:
+    module:
+      - acadmix_faculty
   module:
     - image
     - taxonomy
     - user
     - views_bootstrap
-  enforced:
-    module:
-      - acadmix_faculty
 id: research_areas
 label: 'Research Areas'
 module: views
@@ -358,7 +359,7 @@ display:
           entity_type: taxonomy_term
           plugin_id: numeric
       sorts: {  }
-      title: Research areas
+      title: 'Research areas'
       header: {  }
       footer: {  }
       empty: {  }
@@ -392,7 +393,16 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: research-areas-all
+      path: research-areas
+      menu:
+        type: normal
+        title: 'Research areas'
+        description: 'View all major Research Areas'
+        expanded: false
+        parent: ''
+        weight: 0
+        context: '0'
+        menu_name: main
     cache_metadata:
       max-age: -1
       contexts:

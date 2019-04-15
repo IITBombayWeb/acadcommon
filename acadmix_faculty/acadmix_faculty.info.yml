@@ -27,3 +27,4 @@ dependencies:
   - better_exposed_filters:better_exposed_filters
   - datatables:datatables
   - field_group:field_group
+  - bootstrap_layouts:bootstrap_layouts

@@ -56,19 +56,25 @@ process:
   field_phone_no_new: phone_no
   field_mobile_number_new: mobile_no
   field_email_new: email
-  field_detailed_information_page: inform_page
-  field_background/value: background
-  field_background/format:
+  field_detailed_information_page/uri: inform_page
+  field_detailed_information_page/title:
     plugin: default_value
-    default_value: basic_html
-  field_affiliations/value: affiliation
-  field_affiliations/format:
-    plugin: default_value
-    default_value: basic_html
-  field_awards_and_fellowship/value: awards_and_fellowships
-  field_awards_and_fellowship/format:
-    plugin: default_value
-    default_value: basic_html
+    default_value: Detailed Information/Research Group Web-Page
+  field_background:
+    -
+      plugin: explode
+      delimiter: ' | '
+      source: background
+  field_affiliations:
+    -
+      plugin: explode
+      delimiter: ' | '
+      source: affiliation
+  field_awards_and_fellowship:
+    -
+      plugin: explode
+      delimiter: ' | '
+      source: awards_and_fellowships
   field_employment_category:
     -
       plugin: entity_lookup
