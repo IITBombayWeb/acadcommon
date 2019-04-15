@@ -11,16 +11,17 @@ dependencies:
     - field.storage.node.field_room_no
     - image.style.thumbnail
     - node.type.fac_page
+    - system.menu.main
     - taxonomy.vocabulary.employment_category
   content:
-    - 'taxonomy_term:employment_category:2436103a-9f4c-4430-8ba1-d32c069110ec'
-    - 'taxonomy_term:employment_category:6c0ccfef-386f-43ca-b5a7-e64fb9589b4f'
-    - 'taxonomy_term:employment_category:7fbb0e9b-2593-4859-a636-e76c887e3202'
-    - 'taxonomy_term:employment_category:ae12603b-3d60-4400-aa2e-f0c4c2e91b91'
-    - 'taxonomy_term:employment_category:cb1db66a-3ebc-43a0-96ac-afc56e2b559a'
-    - 'taxonomy_term:employment_category:cff59193-40a9-4bd0-b218-bd1cfca4c286'
-    - 'taxonomy_term:employment_category:d094696f-ff90-463c-a673-143d4de660b9'
-    - 'taxonomy_term:employment_category:da390c07-dee2-409a-8ccd-d4fe9534c685'
+    - 'taxonomy_term:employment_category:1b4f421b-b58d-41f0-89f1-72b4bbc88b5d'
+    - 'taxonomy_term:employment_category:44b3edc8-a53c-4509-872e-5f1ae54429d3'
+    - 'taxonomy_term:employment_category:7589db8c-0e7c-4307-be37-ab7a8eb0dec7'
+    - 'taxonomy_term:employment_category:9eb45433-b4e2-483a-8dec-480253060604'
+    - 'taxonomy_term:employment_category:d9616e33-887b-4722-b87a-e8939c759ccd'
+  enforced:
+    module:
+      - acadmix_faculty
   module:
     - better_exposed_filters
     - datatables
@@ -31,9 +32,6 @@ dependencies:
     - taxonomy
     - text
     - user
-  enforced:
-    module:
-      - acadmix_faculty
 id: faculty_directory
 label: 'Faculty Directory'
 module: views
@@ -86,8 +84,9 @@ display:
             field_employment_category_target_id:
               bef_format: default
               more_options:
+                bef_select_all_none: false
+                bef_collapsible: false
                 is_secondary: false
-                placeholder_text: ''
                 rewrite:
                   filter_rewrite_values: ''
           text_input_required_format: basic_html
@@ -828,14 +827,11 @@ display:
           admin_label: ''
           operator: or
           value:
-            4: 4
-            5: 5
+            7: 7
             6: 6
-            9: 9
             11: 11
             10: 10
-            8: 8
-            7: 7
+            9: 9
           group: 1
           exposed: true
           expose:
@@ -852,7 +848,7 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
-            reduce: false
+            reduce: true
             chosen_override: 0
             disable_search: 0
             search_contains: 0
@@ -876,7 +872,7 @@ display:
           limit: true
           vid: employment_category
           hierarchy: false
-          error_message: true
+          error_message: false
           plugin_id: taxonomy_index_tid
       sorts:
         field_full_name_family:
@@ -937,6 +933,15 @@ display:
     display_options:
       display_extenders: {  }
       path: faculty-directory
+      menu:
+        type: normal
+        title: Faculty
+        description: ''
+        expanded: false
+        parent: ''
+        weight: 0
+        context: '0'
+        menu_name: main
     cache_metadata:
       max-age: -1
       contexts:
