@@ -65,7 +65,7 @@ process:
       plugin: explode
       delimiter: ' | '
       source: background
-  field_affiliations: affiliation
+  field_affiliations:
     -
       plugin: explode
       delimiter: ' | '
