@@ -1,5 +1,53 @@
 <?php
 
+
+use Drupal\node\Entity\Node;
+use Drupal\file\Entity\File;
+use Drupal\Component\Utility\Html;
+use Drupal\Component\Utility\Xss;
+use Drupal\Component\Utility\SafeMarkup;
+use Drupal\Core\Url;
+use Drupal\file\Plugin\Core\Entity\FileInterface;
+
+
+/**
+* Implements hook_uninstall().
+*/
+
+function acadmix_slider_install() {
+
+$path_to_acadmix_slider = drupal_get_path('module', 'acadmix_slider');
+
+$slide1 = ['Slide Title1', 'Slide Subtitle 1', 'slider_img_1.jpg'];
+$slide2 = ['Slide Title2', 'Slide Subtitle 1', 'slider_img_2.jpg'];
+
+$default_slider_content = [$slide1, $slide2];
+
+foreach ($default_slider_content as $key => $value) {
+  
+  $source_file = $path_to_acadmix_slider . '/' . 'img/' . $value[2];
+
+  $data = file_get_contents($source_file);
+  $file = file_save_data($data, 'public://' . $value[0] , FILE_EXISTS_REPLACE);
+
+  $node = Node::create([
+    'type'        => 'main_slider',
+    'title'       => $value[0],
+    'field_slider_image' => [
+      'target_id' => $file->id(),
+      'alt' => 'main slider',
+      'title' => 'Slider Default Image'
+    ],
+    'field_slider_subtitle' => [
+      'value' => $value[1],
+      'format' => 'full_html'
+    ],      
+  ]);
+  $node->save();
+}
+}
+
+
 /**
 * Implements hook_uninstall().
 */
