@@ -15,3 +15,4 @@ dependencies:
   - spamspan:spamspan
   - slick_views:slick_views
   - acadmix_faculty:acadmix_faculty
+  - pathauto:pathauto
