@@ -19,7 +19,7 @@ function acadmix_slider_install() {
 $path_to_acadmix_slider = drupal_get_path('module', 'acadmix_slider');
 
 $slide1 = ['Slide Title1', 'Slide Subtitle 1', 'slider_img_1.jpg'];
-$slide2 = ['Slide Title2', 'Slide Subtitle 1', 'slider_img_2.jpg'];
+$slide2 = ['Slide Title2', 'Slide Subtitle 2', 'slider_img_2.jpg'];
 
 $default_slider_content = [$slide1, $slide2];
 
