@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  enforced:
+    module:
+      - acadmix_slider
+id: _main_slider_alias
+label: ' Main Slider Alias'
+type: 'canonical_entities:node'
+pattern: 'feature-research/[node:title]'
+selection_criteria:
+  18cfb8f6-f2e8-4dcb-bce4-01a96c9b509e:
+    id: node_type
+    bundles:
+      main_slider: main_slider
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 18cfb8f6-f2e8-4dcb-bce4-01a96c9b509e
+selection_logic: and
+weight: -5
+relationships: {  }
