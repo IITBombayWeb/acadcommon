@@ -28,3 +28,4 @@ dependencies:
   - datatables:datatables
   - field_group:field_group
   - bootstrap_layouts:bootstrap_layouts
+  - shs:shs
