@@ -177,9 +177,9 @@ display:
             themeroller: 0
             sdom: ''
           pages:
-            pagination_style: full_numbers
-            length_change: 1
-            display_length: '10'
+            pagination_style: no_pagination
+            length_change: 0
+            display_length: ''
           hidden_columns:
             field_faculty_photo: '0'
             title: '0'

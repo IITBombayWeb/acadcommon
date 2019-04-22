@@ -80,6 +80,7 @@ third_party_settings:
         - field_faculty_rd_proj
         - field_faculty_cv
         - field_research_area
+        - field_courses_taught
 id: node.fac_page.full
 targetEntityType: node
 bundle: fac_page
@@ -200,6 +201,13 @@ content:
     label: hidden
     settings:
       link_to_entity: false
+    third_party_settings: {  }
+  field_courses_taught:
+    type: text_default
+    weight: 20
+    region: ds_content
+    label: above
+    settings: {  }
     third_party_settings: {  }
   field_detailed_information_page:
     type: link
@@ -757,5 +765,4 @@ content:
     third_party_settings: {  }
 hidden:
   body: true
-  field_courses_taught: true
   langcode: true

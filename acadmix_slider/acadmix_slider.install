@@ -28,7 +28,7 @@ foreach ($default_slider_content as $key => $value) {
   $source_file = $path_to_acadmix_slider . '/' . 'img/' . $value[2];
 
   $data = file_get_contents($source_file);
-  $file = file_save_data($data, 'public://' . $value[0] , FILE_EXISTS_REPLACE);
+  $file = file_save_data($data, 'public://' . $value[2] , FILE_EXISTS_REPLACE);
 
   $node = Node::create([
     'type'        => 'main_slider',
