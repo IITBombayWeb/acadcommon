@@ -4,7 +4,6 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_research_areas_image
     - image.style.acad_fac_thumbnail_400_300_
-    - system.menu.main
     - taxonomy.vocabulary.research_area
   enforced:
     module:
@@ -395,7 +394,7 @@ display:
       display_extenders: {  }
       path: research-areas
       menu:
-        type: normal
+        type: none
         title: 'Research areas'
         description: 'View all major Research Areas'
         expanded: false

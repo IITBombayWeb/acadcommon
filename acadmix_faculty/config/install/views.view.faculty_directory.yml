@@ -9,16 +9,15 @@ dependencies:
     - field.storage.node.field_faculty_photo
     - field.storage.node.field_phone_no_new
     - field.storage.node.field_room_no
-    - image.style.thumbnail
+    - image.style.acad_fac_thumbnail_100_100_
     - node.type.fac_page
-    - system.menu.main
     - taxonomy.vocabulary.employment_category
   content:
-    - 'taxonomy_term:employment_category:1b4f421b-b58d-41f0-89f1-72b4bbc88b5d'
-    - 'taxonomy_term:employment_category:44b3edc8-a53c-4509-872e-5f1ae54429d3'
-    - 'taxonomy_term:employment_category:7589db8c-0e7c-4307-be37-ab7a8eb0dec7'
-    - 'taxonomy_term:employment_category:9eb45433-b4e2-483a-8dec-480253060604'
-    - 'taxonomy_term:employment_category:d9616e33-887b-4722-b87a-e8939c759ccd'
+    - 'taxonomy_term:employment_category:38cd40c4-beec-447c-ba54-9686853b366f'
+    - 'taxonomy_term:employment_category:5e0ee390-c34f-4665-ba22-249c1963afda'
+    - 'taxonomy_term:employment_category:773ac71d-4a37-4db4-8a93-bf84cc8c7b56'
+    - 'taxonomy_term:employment_category:8ca5375d-d847-4165-bd54-947909c42bf0'
+    - 'taxonomy_term:employment_category:e03dfb55-3445-498c-aadb-92e676a6cb89'
   enforced:
     module:
       - acadmix_faculty
@@ -243,7 +242,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: thumbnail
+            image_style: acad_fac_thumbnail_100_100_
             image_link: content
           group_column: ''
           group_columns: {  }
@@ -934,7 +933,7 @@ display:
       display_extenders: {  }
       path: faculty-directory
       menu:
-        type: normal
+        type: none
         title: Faculty
         description: ''
         expanded: false
