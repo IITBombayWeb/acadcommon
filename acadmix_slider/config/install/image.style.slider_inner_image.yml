@@ -7,11 +7,11 @@ dependencies:
 name: slider_inner_image
 label: 'slider inner image'
 effects:
-  d9d66d55-1fb9-4f02-b9df-faa3259b8614:
-    uuid: d9d66d55-1fb9-4f02-b9df-faa3259b8614
-    id: image_scale_and_crop
+  c16c8594-360a-43f5-af74-d482a9ac0110:
+    uuid: c16c8594-360a-43f5-af74-d482a9ac0110
+    id: image_scale
     weight: 1
     data:
-      width: 650
-      height: 650
-      anchor: center-center
+      width: 600
+      height: 400
+      upscale: false
