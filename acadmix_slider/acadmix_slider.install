@@ -7,7 +7,8 @@ use Drupal\Component\Utility\Html;
 use Drupal\Component\Utility\Xss;
 use Drupal\Component\Utility\SafeMarkup;
 use Drupal\Core\Url;
-use Drupal\file\Plugin\Core\Entity\FileInterface;
+#use Drupal\file\Plugin\Core\Entity\FileInterface;
+use Drupal\Core\File\FileSystemInterface;
 
 
 /**
@@ -28,7 +29,8 @@ foreach ($default_slider_content as $key => $value) {
   $source_file = $path_to_acadmix_slider . '/' . 'img/' . $value[2];
 
   $data = file_get_contents($source_file);
-  $file = file_save_data($data, 'public://' . $value[2] , FILE_EXISTS_REPLACE);
+#  $file = file_save_data($data, 'public://' . $value[2] , FILE_EXISTS_REPLACE);
+  $file = file_save_data($data, 'public://' . $value[2] , FileSystemInterface::EXISTS_REPLACE);
 
   $node = Node::create([
     'type'        => 'main_slider',
