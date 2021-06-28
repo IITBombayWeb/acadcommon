@@ -1,7 +1,9 @@
 name: 'Acadmix faculty content type'
 type: module
 description: 'Acadmix faculty content type'
+# Core: Below to be removed later, Once 9.x test is successful.
 core: 8.x
+core_version_requirement: ^8 || ^9
 package: 'Acadmix content type'
 dependencies: 
   - drupal:menu_ui
